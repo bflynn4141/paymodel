@@ -1,0 +1,14 @@
+name = "paymodel"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+account_id = "6086ce685984a10efa10591377c8dd8b"
+
+# Secrets (set via wrangler secret put):
+# - TOGETHER_API_KEY: Together AI API key for upstream LLM calls
+# - ADMIN_KEY: Authentication for admin endpoints
+# - TREASURY_ADDRESS: Tempo testnet address that receives PathUSD deposits
+
+# KV namespace for all paymodel data (balances, deposits, usage, stats)
+[[kv_namespaces]]
+binding = "PAYMODEL"
+id = "bc06e9db6f3b4731a78cc67945065dd0"
