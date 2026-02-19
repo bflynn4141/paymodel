@@ -2,7 +2,7 @@ import { MODELS, buildModelsResponse } from "./models.js";
 import { corsHeaders, jsonResponse, missingPayerResponse, formatPathUsd } from "./helpers.js";
 
 const VERSION = "0.1.0";
-const TEMPO_CHAIN_ID = 42429;
+const TEMPO_CHAIN_ID = 42431;
 const PATHUSD_ADDRESS = "0x20c0000000000000000000000000000000000000";
 
 // ============================================

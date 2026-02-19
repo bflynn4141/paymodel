@@ -3,7 +3,7 @@
 
 import { MODELS } from "./models.js";
 
-const TEMPO_CHAIN_ID = 42429;
+const TEMPO_CHAIN_ID = 42431;
 const PATHUSD_ADDRESS = "0x20c0000000000000000000000000000000000000";
 
 // ============================================
@@ -82,7 +82,7 @@ export function paymentRequiredResponse(request, balance, env) {
       decimals: 6,
       chain: "Tempo Testnet",
       chainId: TEMPO_CHAIN_ID,
-      rpc: "https://rpc.testnet.tempo.xyz",
+      rpc: "https://rpc.moderato.tempo.xyz",
     },
     howTo: [
       "1. Get testnet PathUSD from Tempo faucet",

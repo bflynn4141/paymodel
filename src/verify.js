@@ -1,7 +1,7 @@
 // Tempo RPC helpers: verify PathUSD transfers via JSON-RPC
 // No SDK needed — pure fetch() to EVM-compatible RPC.
 
-const TEMPO_RPC = "https://rpc.testnet.tempo.xyz";
+const TEMPO_RPC = "https://rpc.moderato.tempo.xyz";
 const PATHUSD_ADDRESS = "0x20c0000000000000000000000000000000000000";
 
 // keccak256("Transfer(address,address,uint256)")
